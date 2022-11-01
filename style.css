@@ -29,7 +29,7 @@ body {
   padding-left: 20px;
   margin-left: 60px;
   font-family: "JetBrains Mono", monospace;
-  color: aliceblue;
+  color: #95d3af;
   font-size: 17px;
   font-weight: 100;
   padding-top: 30px;
@@ -44,7 +44,7 @@ h4 {
 }
 
 a:hover {
-  color: #94F7C5;
+  color: #95d3af;
 }
 
 a {
