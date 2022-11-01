@@ -29,7 +29,7 @@ body {
   padding-left: 20px;
   margin-left: 60px;
   font-family: "JetBrains Mono", monospace;
-  color: #95d3af;
+  color: #E3E6EB;
   font-size: 17px;
   font-weight: 100;
   padding-top: 30px;
@@ -53,7 +53,7 @@ a {
 }
 
 .wrapper {
-  background-color: #162026;
+  background-color: #94F7C5;
   position: relative;
   height: 300px;
   width: 700px;
