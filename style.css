@@ -61,14 +61,6 @@ a {
   box-shadow: -10px -10px 30px;
 }
 .header {
-  padding: 60px;
-  position: center
-  text-align: center;
-  background: #111419;
-  color: #111419;
-  font-size: 30px;
-}
-.link {
   height: 120px;
   width: 1200px;
   padding-left: 20px;
