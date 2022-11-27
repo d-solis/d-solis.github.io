@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="author" content="Diego Solis">
+<meta name ="description" content="(Description goes here)">
+<link rel="stylesheet" href="website-vpersonal\assets\title.css" type="text/css">
+<link rel="stylesheet" href="website-vpersonal\assets\tabs.css" type="text/css">
+<title>The Syndicate</title>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Contact Us')">Contact Us</button>
+  <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+  <button class="tablinks" onclick="openCity(event, 'Current Projects')">Current Projects</button>
+  <button class="tablinks" onclick="openCity(event, 'Blog')">Blog</button>
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+</div>
+
+<div id="About" class="tabcontent">
+    <h3></h3>
+    <p>PLACEHOLDER</p>
+  </div>
+
+<div id="Contact Us" class="tabcontent">
+  <h3></h3>
+  <p>PLACEHOLDER</p>
+</div>
+
+<div id="Current Projects" class="tabcontent">
+  <h3></h3>
+  <p>PLACEHOLDER</p> 
+</div>
+
+<div id="Blog" class="tabcontent">
+  <h3></h3>
+  <p>PLACEHOLDER</p>
+</div>
+
+<div id="Home" class="tabcontent">
+    <div class="title">
+        <h2>The Syndicate</h2>
+        <p>Welcome, Traveler. We hope you enjoy your stay.</p>
+            <div>
+  </div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html> 
