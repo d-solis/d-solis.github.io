@@ -19,6 +19,25 @@
       <a href="index.html">Blog</a>
       <a href="about.html">About</a>
     </nav>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        main {
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .about {
+          text-align: center;
+        }
+      </style>
   </header>
 
   <main>
@@ -112,7 +131,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 Your Name. All rights reserved.</p>
+    <p><span class="copyleft">&copy;</span> 2023 Diego Solis | All rights reserved my ass, feel free to copy :P</p>
   </footer>
 </body>
 </html>
