@@ -32,8 +32,8 @@ body, h1, h2, h3, p {
   }
   
 .profile img {
-  max-width: 7.5%;
-  height: 7.5%;
+  max-width: 6%;
+  height: 6%;
   border-radius: 5px; /* Rounded corners */
   margin-right: 10px;
   border: 1px solid #ddd;
