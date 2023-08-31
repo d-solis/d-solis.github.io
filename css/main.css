@@ -16,11 +16,14 @@ body, h1, h2, h3, p {
     padding: 2rem;
   }
   
-  .main-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
+  main {
+    flex: 1; /* Equivalent to flex-grow: 1 and flex-shrink: 1 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+  
   
   .profile {
     display: flex;
@@ -28,13 +31,13 @@ body, h1, h2, h3, p {
     margin-top: 20px;
   }
   
-  .profile img {
-    width: 80px;
-    height: 80px;
-    border-radius: 5px; /* Rounded corners */
-    margin-right: 10px;
-    border: 1px solid #ddd;
-  }
+.profile img {
+  max-width: 7.5%;
+  height: 7.5%;
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
   
   .profile h1 {
     font-size: 24px;
@@ -67,8 +70,7 @@ body, h1, h2, h3, p {
   }
   
   .about h2 {
-    font-size: 24px;
-    margin-bottom: 1rem;
+    font-size: 3vw; /* Adjust as needed */
   }
   
   .about p {
@@ -142,3 +144,9 @@ body, h1, h2, h3, p {
     padding-top: 150px;
   }
   
+
+  @media (max-width: 600px) {
+    .about h2 {
+      font-size: 5vw;
+    }
+  }
